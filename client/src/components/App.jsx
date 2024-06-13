@@ -1,4 +1,5 @@
 import { lazy, Suspense, useState } from "react";
+import Profile from "./Profile.jsx";
 import About from "./About.jsx";
 import Experience from "./Experience.jsx";
 import Projects from "./Projects.jsx";
@@ -20,6 +21,7 @@ export default function App() {
       </nav>
     </header>
     <main className="container my-6">
+      <Profile />
       <About />
       <Experience />
       <Projects />
