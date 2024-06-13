@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about" className="section">
       <div className="container">
-        <h2 className="title">About</h2>
+        <h2 className="title">About Me</h2>
         <p>
           I am a full-stack software engineer with a passion for learning and
           problem-solving. I discovered my love and passion for coding during my Master's program.
