@@ -1,5 +1,9 @@
 import { lazy, Suspense, useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from "./About.jsx";
+import Experience from "./Experience.jsx";
+import Projects from "./Projects.jsx";
+import Contact from "./Contact.jsx";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export default function App() {
   return (
