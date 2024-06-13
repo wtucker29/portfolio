@@ -42,7 +42,7 @@ module.exports = {
   plugins: [
     // new ReactRefreshPlugin(), // See note below...
     new HtmlWebpackPlugin({
-      title: "JotNet",
+      title: "My Portfolio",
       favicon: "./client/src/assets/favicon.png",
     }),
     // This will allow you to refer to process.env variables
