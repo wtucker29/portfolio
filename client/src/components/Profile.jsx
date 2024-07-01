@@ -3,7 +3,7 @@ import React from "react";
 export default function Profile() {
   return (
     <section id="profile" className="section">
-      <div className="container">
+      <div className="container has-text-centered">
         <div className="columns is-vcentered">
           <div className="column is-one-half">
             <div className="pic-container">

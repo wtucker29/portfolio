@@ -3,7 +3,7 @@ import React from "react";
 export default function Technologies() {
   return (
     <section id="technologies" className="section">
-      <div className="container">
+      <div className="container has-text-centered">
         <h2 className="title">Technologies</h2>
         <div className="icon-container">
           <div className="icon-rows">
