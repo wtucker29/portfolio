@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Technologies() {
   return (
-    <section id="experience" className="section">
+    <section id="technologies" className="section">
       <div className="container">
         <h2 className="title">Technologies</h2>
           <div className="columns">
