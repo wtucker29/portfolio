@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Profile() {
   return (
@@ -16,7 +18,7 @@ export default function Profile() {
               <p className="profile-text">Full Stack Developer</p>
               <div className="btn-container">
                 <button
-                  className="button is-primary is-outlined is-medium"
+                  className="button has-text-primary-100 is-outlined-100 is-medium"
                   onClick={() => {
                     window.open("/assets/William_Tucker_FullStack_Resume.pdf");
                   }}
@@ -24,13 +26,21 @@ export default function Profile() {
                   Download Resume
                 </button>
                 <button
-                  className="button is-primary is-outlined is-medium"
+                  className="button has-text-primary-100 is-outlined-100 is-medium"
                   onClick={() => {
                     document.getElementById("contact").scrollIntoView();
                   }}
                 >
                   Contact Info
                 </button>
+              </div>
+              <div className="social-container">
+                <a href="https://www.linkedin.com/in/william-h-tucker-iv" target="_blank" rel="noreferrer" className="linkedin-icon" style={{ color: "white" }}>
+                  <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                </a>
+                <a href="https://github.com/wtucker29" target="_blank" rel="noreferrer" className="github-icon" style={{ color: "white" }}>
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
+                </a>
               </div>
             </div>
           </div>
