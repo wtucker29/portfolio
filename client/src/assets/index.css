@@ -1,1 +1,11 @@
-@import 'bulma/css/bulma.min.css'
+@import 'bulma/css/bulma.min.css';
+
+/* Custom CSS for circular profile picture */
+.profile-pic {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Ensure height and width are the same for a perfect circle */
+  border-radius: 50%; /* This makes the image a circle */
+  object-fit: cover; /* This ensures the image covers the container without stretching */
+  display: block; /* Ensures that the image doesn't have extra space around it */
+  margin: 0 auto; /* Centers the image horizontally */
+}
