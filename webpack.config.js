@@ -3,6 +3,7 @@ require("dotenv").config();
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -16,7 +17,7 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /nodeModules/,
+        exclude: /node_modules/,
         use: {
           loader: "babel-loader",
         },
@@ -36,12 +37,15 @@ module.exports = {
       title: "My Portfolio",
       favicon: "./client/src/assets/favicon.png",
     }),
-    // This will allow you to refer to process.env variables
-    // within client-side files at build-time:
     new webpack.DefinePlugin({
       "process.env": {
         AUTH_SECRET: JSON.stringify(process.env.AUTH_SECRET),
       },
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: path.join(__dirname, "/client/src/assets"), to: path.join(__dirname, "/client/dist/assets") },
+      ],
     }),
   ],
 };
