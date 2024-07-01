@@ -5,9 +5,12 @@ export default function About() {
     <section id="about" className="section">
       <div className="container">
         <h2 className="title">About Me</h2>
-        <p>
+        <p className="about-paragraph">
           I am a full-stack software engineer with a passion for learning and
-          problem-solving. I discovered my love and passion for coding during my Master's program.
+          problem-solving. Previously, I worked as a mechanical engineer for over 8 years where I developed my problem-solving skills, as well as my leadership and communication abilities. I have lead multi-national and cross-functional teams during my previous career, as well as being an individual contributor.
+        </p>
+        <p className="about-paragraph">
+          I discovered my love and passion for coding while taking cybersecurity classes during my Master's program. My time coding in Python while working on machine learning projects was the spark that igited my passion for coding and lead me on the path to becoming a software engineer.
           My focus is on JavaScript and its frameworks, but I am always looking to learn new technologies.
           I am excited to bring my unique perspective to a team of talented developers.
         </p>
