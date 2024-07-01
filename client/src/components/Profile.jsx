@@ -5,7 +5,7 @@ export default function Profile() {
     <section id="profile" className="section">
       <div className="container">
         <div className="columns is-vcentered">
-          <div className="column is-one-quarter">
+          <div className="column is-one-half">
             <div className="pic-container">
               <img src="/assets/William_Tucker_Photo.jpg" alt="William Tucker profile picture" className="profile-pic" />
             </div>
