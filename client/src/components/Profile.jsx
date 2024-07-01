@@ -14,7 +14,7 @@ export default function Profile() {
             <button
               className="button is-primary is-outlined is-medium"
               onClick={() => {
-                window.open("../assets/William_Tucker_Resume.pdf");
+                window.open("/assets/William_Tucker_FullStack_Resume.pdf");
               }}
             >
               Download CV
