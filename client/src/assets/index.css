@@ -30,3 +30,8 @@
   display: block; /* Ensures that the image doesn't have extra space around it */
   margin: 0 auto; /* Centers the image horizontally */
 }
+
+/* Custom CSS for About section */
+.about-paragraph {
+  margin-bottom: 1rem; /* Add space between paragraphs */
+}
