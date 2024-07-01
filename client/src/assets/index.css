@@ -43,6 +43,19 @@
 /* Custom CSS for Buttons */
 .button {
   margin-right: 0.5rem; /* Add space between buttons */
+  margin-bottom: 0.5rem; /* Add space between buttons */
+  font-size: 1rem; /* Increase the font size */
+}
+
+/* Custom CSS for Social Media Buttons */
+.linkedin-icon {
+  margin-top: 1rem; /* Add space between social media buttons and profile text */
+  margin-right: 0.5rem; /* Add space between social media buttons */
+}
+
+.github-icon {
+  margin-top: 1rem; /* Add space between social media buttons and profile text */
+  margin-right: 0.5rem; /* Add space between social media buttons */
 }
 
 /* Custom CSS for About section */
