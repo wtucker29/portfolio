@@ -9,16 +9,22 @@ import Contact from "./Contact.jsx";
 export default function App() {
   return (
     <>
-    <header>
-      <nav>
-        <h1>William Tucker</h1>
-        <ul className="is-flex">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <header className="navbar is-light">
+      <div className="container">
+        <div className="columns is-vcentered">
+          <div className="column">
+            <h1 className="title is-4 has-text-primary-00">William Tucker</h1>
+          </div>
+          <div className="column is-flex is-justify-content-flex-end">
+            <ul className="navbar-menu is-flex">
+              <li className="navbar-item"><a href="#about">About</a></li>
+              <li className="navbar-item"><a href="#experience">Experience</a></li>
+              <li className="navbar-item"><a href="#projects">Projects</a></li>
+              <li className="navbar-item"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
     <main className="container my-6">
       <Profile />

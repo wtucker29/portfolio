@@ -1,5 +1,21 @@
 @import 'bulma/css/bulma.min.css';
 
+/* Custom styles */
+.navbar-menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar-item a {
+  color: #4a4a4a; /* Default Bulma text color */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-item a:hover {
+  color: #3273dc; /* Bulma primary color */
+}
+
 /* Custom CSS for circular profile picture */
 .profile-pic {
   width: 150px; /* Adjust the size as needed */
