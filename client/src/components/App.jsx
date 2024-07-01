@@ -1,7 +1,7 @@
 import { lazy, Suspense, useState } from "react";
 import Profile from "./Profile.jsx";
 import About from "./About.jsx";
-import Technologies from "./Experience.jsx";
+import Technologies from "./Technologies.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
