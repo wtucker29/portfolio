@@ -16,7 +16,7 @@ export default function Projects() {
     },
     {
       title: "Atelier",
-      image: "/assets/projects/Atelier/ProductOverview.gif",
+      image: "/assets/projects/Atelier/ProductOverview.png",
       description: "Atelier is a e-commerce website that allows users to view and purchase clothing items. Users can also view ratings and reviews for each product.",
       github: "https://github.com/wtucker29/Project-Atelier",
     },
