@@ -10,7 +10,7 @@ export default function Projects() {
     },
     {
       title: "SkoolHub",
-      image: "/assets/projects/SkoolHub/snip1.gif",
+      image: "/assets/projects/SkoolHub/AdminPage.png",
       description: "SkoolHub is an education management system to help adminstrators, teachers, and students manage their school experience.",
       github: "https://github.com/wtucker29/SkoolHub",
     },
