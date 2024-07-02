@@ -1,5 +1,9 @@
 @import 'bulma/css/bulma.min.css';
 
+html {
+  scroll-behavior: smooth; /* Smooth scrolling behavior */
+}
+
 .title {
   text-align: center; /* Center the content */
 }
