@@ -68,3 +68,8 @@ html {
   font-size: 1.25rem; /* Increase the font size */
   justify-content: left; /* Align text to the left */
 }
+
+/* Custom CSS for Projects section */
+.card-footer {
+  justify-content: center; /* Align the buttons to the center */
+}
