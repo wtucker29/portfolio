@@ -35,10 +35,10 @@ export default function Profile() {
                 </button>
               </div>
               <div className="social-container">
-                <a href="https://www.linkedin.com/in/william-h-tucker-iv" target="_blank" rel="noreferrer" className="linkedin-icon" style={{ color: "white" }}>
+                <a href="https://www.linkedin.com/in/william-h-tucker-iv" target="_blank" rel="noreferrer" className="linkedin-icon" aria-label="Link to LinkedIn" style={{ color: "white" }}>
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
-                <a href="https://github.com/wtucker29" target="_blank" rel="noreferrer" className="github-icon" style={{ color: "white" }}>
+                <a href="https://github.com/wtucker29" target="_blank" rel="noreferrer" className="github-icon" aria-label="Link to Github" style={{ color: "white" }}>
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>
