@@ -94,3 +94,29 @@ html {
 .contact-item:not(:last-child) {
   margin-bottom: 1.5rem; /* Gap between email and LinkedIn sections */
 }
+
+/* Custom CSS for Footer */
+.footer {
+  background-color: #f8f8f8;
+  padding: 1rem 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer .navbar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .navbar-item {
+  margin: 0 0.5rem;
+}
+
+.navbar-item a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
