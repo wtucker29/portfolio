@@ -36,6 +36,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "My Portfolio",
       favicon: "./client/src/assets/favicon.png",
+      template: path.join(__dirname, "/client/src/template.html"),
     }),
     new webpack.DefinePlugin({
       "process.env": {
