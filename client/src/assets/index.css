@@ -73,3 +73,24 @@ html {
 .card-footer {
   justify-content: center; /* Align the buttons to the center */
 }
+
+/* Custom CSS for Contact Me section */
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem; /* Adjust gap between items */
+}
+
+.contact-item a {
+  margin-left: 0.8rem; /* Gap between icon and link */
+  font-size: 1.5rem; /* Adjust text size to match icon */
+}
+
+.contact-item a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.contact-item:not(:last-child) {
+  margin-bottom: 1.5rem; /* Gap between email and LinkedIn sections */
+}
