@@ -27,7 +27,7 @@ export default function App() {
           </div>
         </div>
       </header>
-      <main className="container my-6" style={{ backgroundColor: '#121212' }}>
+      <main className="container my-6">
         <Profile />
         <About />
         <Technologies />
