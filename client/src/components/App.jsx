@@ -27,7 +27,7 @@ export default function App() {
           </div>
         </div>
       </header>
-      <main className="container my-6">
+      <main id="main-app" className="container my-6">
         <Profile />
         <About />
         <Technologies />

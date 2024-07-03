@@ -4,8 +4,17 @@ html {
   scroll-behavior: smooth; /* Smooth scrolling behavior */
 }
 
+#main-app {
+  background-color: #121212;
+}
+
 .title {
   text-align: center; /* Center the content */
+}
+
+.section {
+  background-color: #121212;
+  color: #f5f5f5; /* Bulma text color */
 }
 
 /* Custom styles */
