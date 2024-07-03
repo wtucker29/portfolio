@@ -18,7 +18,7 @@ export default function Profile() {
               <p className="profile-text">Full Stack Developer</p>
               <div className="btn-container">
                 <button
-                  className="button has-text-white is-outlined-00 is-medium"
+                  className="button is-link is-focused is-medium is-responsive"
                   onClick={() => {
                     window.open("/assets/William_Tucker_FullStack_Resume.pdf");
                   }}
