@@ -11,13 +11,13 @@ export default function Contact() {
         <div className="columns is-centered">
           <div className="column is-narrow">
             <div className="contact-item">
-              <FontAwesomeIcon icon={faEnvelope} size="2x" />
+              <FontAwesomeIcon icon={faEnvelope} size="1x" style={{ color: 'white' }} />
               <a href="mailto:william.tucker29@gmail.com?subject=Contact%20from%20Portfolio" className="contact-link">
                 william.tucker29@gmail.com
               </a>
             </div>
             <div className="contact-item">
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ color: 'white' }} />
               <a href="https://www.linkedin.com/in/william-h-tucker-iv" target="_blank" rel="noreferrer" className="contact-link">
                 LinkedIn
               </a>
