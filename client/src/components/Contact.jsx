@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="columns is-centered">
           <div className="column is-narrow">
             <div className="contact-item">
-              <FontAwesomeIcon icon={faEnvelope} size="2x" >
+              <FontAwesomeIcon icon={faEnvelope} size="2x" />
               <a href="mailto:william.tucker29@gmail.com?subject=Contact%20from%20Portfolio" className="contact-link">
                 william.tucker29@gmail.com
               </a>
