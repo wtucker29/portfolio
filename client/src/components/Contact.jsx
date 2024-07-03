@@ -12,7 +12,7 @@ export default function Contact() {
           <div className="column is-narrow">
             <div className="contact-item">
             <button
-                className="button has-text-white is-outlined is-medium"
+                className="button is-link is-focused is-responsive is-medium"
                 onClick={() => {
                   window.open("mailto:william.tucker29@gmail.com?subject=Contact%20from%20Portfolio");
                 }}
@@ -23,7 +23,7 @@ export default function Contact() {
             </div>
             <div className="contact-item">
               <button
-                className="button has-text-white is-outlined is-medium"
+                className="button is-link is-focused is-responsive is-medium"
                 onClick={() => {
                   window.open("https://www.linkedin.com/in/william-h-tucker-iv");
                 }}

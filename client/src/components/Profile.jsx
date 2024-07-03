@@ -26,7 +26,7 @@ export default function Profile() {
                   Download Resume
                 </button>
                 <button
-                  className="button has-text-white is-outlined-00 is-medium"
+                  className="button is-link is-focused is-responsive is-medium"
                   onClick={() => {
                     document.getElementById("contact").scrollIntoView();
                   }}
