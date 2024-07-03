@@ -84,7 +84,7 @@ html {
 
 .contact-item a {
   margin-left: 0.8rem; /* Gap between icon and link */
-  font-size: 1.5rem; /* Adjust text size to match icon */
+  font-size: 1rem; /* Adjust text size to match icon */
 }
 
 .contact-item a:hover {
