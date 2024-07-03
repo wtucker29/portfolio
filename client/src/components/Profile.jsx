@@ -9,7 +9,7 @@ export default function Profile() {
         <div className="columns is-vcentered">
           <div className="column is-one-half">
             <div className="pic-container">
-              <img src="/assets/William_Tucker_Photo.jpg" alt="William Tucker profile picture" className="profile-pic" />
+              <img src="/assets/William_Tucker_Compressed.jpg" alt="William Tucker profile picture" className="profile-pic" data-src="/assets/William_Tucker_Compressed.jpg" loading="lazy"/>
             </div>
           </div>
           <div className="column">
