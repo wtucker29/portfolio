@@ -44,12 +44,13 @@ export default function Projects() {
                   <div className="content">{project.description}</div>
                 </div>
                 <footer className="card-footer">
-                  <button className="button is-link is-focused is-responsive is-medium">
+                  <button className="button is-link is-focused is-responsive">
                     <a
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="card-footer-item"
+                      style={{ color: "white" }}
                     >
                       View on GitHub
                     </a>
