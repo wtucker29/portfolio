@@ -10,7 +10,7 @@ html {
 
 .title {
   text-align: center; /* Center the content */
-  color:#121212;
+  color:#f5f5f5; /* Bulma text color */
 }
 
 .section {
