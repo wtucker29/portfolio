@@ -44,7 +44,7 @@ export default function Projects() {
                   <div className="content">{project.description}</div>
                 </div>
                 <footer className="card-footer">
-                  <button className="button has-text-primary-100 is-outlined-100 is-medium has-text-is-centered">
+                  <button className="button is-link is-focused is-responsive is-medium">
                     <a
                       href={project.github}
                       target="_blank"
