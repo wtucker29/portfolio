@@ -17,10 +17,15 @@ export default function Contact() {
               </a>
             </div>
             <div className="contact-item">
-              <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ color: 'white' }} />
-              <a href="https://www.linkedin.com/in/william-h-tucker-iv" target="_blank" rel="noreferrer" className="contact-link">
+              <button
+                className="button has-text-white is-outlined is-medium"
+                onClick={() => {
+                  window.open("https://www.linkedin.com/in/william-h-tucker-iv");
+                }}
+              >
+                <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ color: 'white' }} />
                 LinkedIn
-              </a>
+              </button>
             </div>
           </div>
         </div>
