@@ -10,6 +10,7 @@ export default function Footer() {
           <div className="column">
             <ul className="navbar-menu is-flex is-justify-content-center">
               <li className="navbar-item"><a href="#about">About</a></li>
+              <li className="navbar-item"><a href="#experience">Experience</a></li>
               <li className="navbar-item"><a href="#technologies">Technologies</a></li>
               <li className="navbar-item"><a href="#projects">Projects</a></li>
               <li className="navbar-item"><a href="#contact">Contact</a></li>

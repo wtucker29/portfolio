@@ -1,6 +1,7 @@
 import { lazy, Suspense, useState } from "react";
 import Profile from "./Profile.jsx";
 import About from "./About.jsx";
+import Experience from "./Experience.jsx";
 import Technologies from "./Technologies.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
@@ -19,6 +20,7 @@ export default function App() {
             <div className="column is-flex is-justify-content-flex-end">
               <ul className="navbar-menu is-flex">
                 <li className="navbar-item"><a href="#about">About</a></li>
+                <li className="navbar-item"><a href="#experience">Experience</a></li>
                 <li className="navbar-item"><a href="#technologies">Technologies</a></li>
                 <li className="navbar-item"><a href="#projects">Projects</a></li>
                 <li className="navbar-item"><a href="#contact">Contact</a></li>
@@ -30,6 +32,7 @@ export default function App() {
       <main className="container my-6">
         <Profile />
         <About />
+        <Experience />
         <Technologies />
         <Projects />
         <Contact />
