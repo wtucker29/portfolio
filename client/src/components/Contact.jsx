@@ -11,10 +11,15 @@ export default function Contact() {
         <div className="columns is-centered">
           <div className="column is-narrow">
             <div className="contact-item">
-              <FontAwesomeIcon icon={faEnvelope} size="1x" style={{ color: 'white' }} />
-              <a href="mailto:william.tucker29@gmail.com?subject=Contact%20from%20Portfolio" className="contact-link">
+            <button
+                className="button has-text-white is-outlined is-medium"
+                onClick={() => {
+                  window.open("mailto:william.tucker29@gmail.com?subject=Contact%20from%20Portfolio");
+                }}
+              >
+                <FontAwesomeIcon icon={faEnvelope} size="1x" style={{ color: 'white', marginRight: '0.5rem' }} />
                 william.tucker29@gmail.com
-              </a>
+              </button>
             </div>
             <div className="contact-item">
               <button
@@ -23,7 +28,7 @@ export default function Contact() {
                   window.open("https://www.linkedin.com/in/william-h-tucker-iv");
                 }}
               >
-                <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ color: 'white' }} />
+                <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ color: 'white', marginRight: '0.5rem' }} />
                 LinkedIn
               </button>
             </div>
