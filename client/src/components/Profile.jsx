@@ -18,7 +18,7 @@ export default function Profile() {
               <p className="profile-text">Full Stack Developer</p>
               <div className="btn-container">
                 <button
-                  className="button has-text-primary-00 is-outlined-00 is-medium"
+                  className="button has-text-white is-outlined-00 is-medium"
                   onClick={() => {
                     window.open("/assets/William_Tucker_FullStack_Resume.pdf");
                   }}
@@ -26,7 +26,7 @@ export default function Profile() {
                   Download Resume
                 </button>
                 <button
-                  className="button has-text-primary-00 is-outlined-00 is-medium"
+                  className="button has-text-white is-outlined-00 is-medium"
                   onClick={() => {
                     document.getElementById("contact").scrollIntoView();
                   }}
