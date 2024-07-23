@@ -40,7 +40,7 @@ html {
   }
   .navbar-menu {
     flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the start */
+    align-items: center; /* Align items to the start */
   }
   .navbar-item a {
     padding: 0.5rem 0; /* Adjust padding for vertical layout */
