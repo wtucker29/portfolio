@@ -176,7 +176,7 @@ html {
   }
   .navbar-menu {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .navbar-item a {
     padding: 0.5rem 0;
