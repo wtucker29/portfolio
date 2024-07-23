@@ -13,7 +13,6 @@ html {
   background-color: #f5f5f5; /* Bulma background color */
   padding: 1rem 0; /* Add padding to the top and bottom */
   padding-left: 6rem; /* Add padding to the left */
-  width: 80vw; /* Adjust the width as needed */
 }
 .navbar-menu {
   list-style: none;
