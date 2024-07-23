@@ -70,23 +70,34 @@ html {
 }
 
 /* Custom CSS for Projects section */
-.card-footer {
-  justify-content: center; /* Align the buttons to the center */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.image {
+.project-image {
   position: relative;
   width: 100%;
+  padding-top: 75%; /* Aspect ratio of 4:3 */
   overflow: hidden;
 }
 
-.image img {
+.project-image img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-footer {
+  justify-content: center;
 }
 
 /* Custom CSS for Contact Me section */

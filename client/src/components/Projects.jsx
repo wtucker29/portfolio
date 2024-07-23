@@ -32,9 +32,9 @@ export default function Projects() {
         <div id="project-list" className="columns is-multiline">
           {projectData.map((project, index) => (
             <div className="column is-one-third" key={index}>
-              <div className="card">
+              <div className="card project-card">
                 <div className="card-image">
-                  <figure className="image" style={{ paddingBottom: `${project.aspectRatio}%`}}>
+                  <figure className="image project-image">
                     <img src={project.image} alt={`${project.title} image`} />
                   </figure>
                 </div>
