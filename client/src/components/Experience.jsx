@@ -18,6 +18,34 @@ export default function Experience() {
           <h4 className="vertical-timeline-element-subtitle">Georgia Institute of Technology</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          date="2016 - 2018"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<FaBriefcase />}
+        >
+          <h3 className="vertical-timeline-element-title">Mechanical Engineer 1</h3>
+          <h4 className="vertical-timeline-element-subtitle">Nissan North America</h4>
+          <p>
+            Systematically reviewed quality of design and performance for body and exterior components for all vehicles manufactured in North America.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          date="2018 - 2021"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<FaBriefcase />}
+        >
+          <h3 className="vertical-timeline-element-title">Mechanical Engineer 2</h3>
+          <h4 className="vertical-timeline-element-subtitle">Nissan North America</h4>
+          <p>
+            A key member in the launch of the 2019 Nissan Kicks, a brand new model, and the 2019 Nissan Versa, a new generation of a popular model. A key member in task forces for each model and responsible for the invesigation and development of countermeasures for field incidents.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2021 - 2022"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
@@ -30,17 +58,14 @@ export default function Experience() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2016 - 2024"
+          date="2021 - 2024"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<FaBriefcase />}
         >
-          <h3 className="vertical-timeline-element-title">Mechanical Engineer</h3>
+          <h3 className="vertical-timeline-element-title">Mechanical Engineer 3</h3>
           <h4 className="vertical-timeline-element-subtitle">Nissan North America</h4>
           <p>
-            <li>Identified and researched field incidents related to customer satisfaction. Designed and implemented robust engineering solutions and countermeasures to optimize critical aspects of vehicle quality and the driving experience.</li>
-            <li>Reported product efficiency and optimization reports to senior leadership on a monthly cadence, with the goal of highlighting emerging and escalating issues.</li>
-            <li>Led Nissan's Quality Customer Survey activity for the Ariya Task Force - a robust survey collecting data on every component of product and feature performance. Results utilized to win awards from JD Power.</li>
-            <li>Led weekly cross-functional meetings with international design and manufacturing teams to identify and improve vehicle quality and manufacturing processes.</li>
+            Reported product efficiency and optimization reports to senior leadership on a monthly cadence, with the goal of highlighting emerging and escalating issues. Led weekly cross-functional meetings with international design and manufacturing teams to identify and improve vehicle quality and manufacturing processes. Led Nissan's Quality Customer Survey activity for the Ariya Task Force - a robust survey collecting data on every component of product and feature performance. Results utilized to win awards from JD Power.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
