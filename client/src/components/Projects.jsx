@@ -7,18 +7,21 @@ export default function Projects() {
       image: "/assets/projects/TriviaTrove/Splashpage.png",
       description: "TriviaTrove is a mobile trivia app that allows users to play trivia games after selecting a category and difficulty level. Users can also view their game history and high scores.",
       github: "https://github.com/wtucker29/TriviaTrove",
+      aspectRatio: (2659 / 1284) * 100, // 0.48
     },
     {
       title: "SkoolHub",
       image: "/assets/projects/SkoolHub/AdminPage.png",
       description: "SkoolHub is an education management system to help adminstrators, teachers, and students manage their school experience.",
       github: "https://github.com/wtucker29/SkoolHub",
+      aspectRatio: (1272 / 1290) * 100, // 1.01
     },
     {
       title: "Atelier",
       image: "/assets/projects/Atelier/ProductOverview.png",
       description: "Atelier is a e-commerce website that allows users to view and purchase clothing items. Users can also view ratings and reviews for each product.",
       github: "https://github.com/wtucker29/Project-Atelier",
+      aspectRatio: (1672 / 2358) * 100, // 1.41
     },
   ];
 
@@ -31,7 +34,7 @@ export default function Projects() {
             <div className="column is-one-third" key={index}>
               <div className="card">
                 <div className="card-image">
-                  <figure className="image is-4by3">
+                  <figure className="image" style={{ paddingBottom: `${project.aspectRatio}%`}}>
                     <img src={project.image} alt={`${project.title} image`} />
                   </figure>
                 </div>
