@@ -10,7 +10,7 @@ export default function Header() {
           <div className="column">
             <h1 className="title is-4 has-text-primary-00">William Tucker</h1>
           </div>
-          <div className="column is-flex is-justify-content-flex-end">
+          <div className="column is-flex">
             <ul className="navbar-menu is-flex is-justify-content-center">
               <li className="navbar-item"><a href="#about">About</a></li>
               <li className="navbar-item"><a href="#experience">Experience</a></li>
