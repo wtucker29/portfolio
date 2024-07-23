@@ -37,7 +37,10 @@ export default function Experience() {
           <h3 className="vertical-timeline-element-title">Mechanical Engineer</h3>
           <h4 className="vertical-timeline-element-subtitle">Nissan North America</h4>
           <p>
-            Job Description and responsibilities.
+            <ul>Identified and researched field incidents related to customer satisfaction. Designed and implemented robust engineering solutions and countermeasures to optimize critical aspects of vehicle quality and the driving experience.</ul>
+            <ul>Reported product efficiency and optimization reports to senior leadership on a monthly cadence, with the goal of highlighting emerging and escalating issues.</ul>
+            <ul>Led Nissan's Quality Customer Survey activity for the Ariya Task Force - a robust survey collecting data on every component of product and feature performance. Results utilized to win awards from JD Power.</ul>
+            <ul>Led weekly cross-functional meetings with international design and manufacturing teams to identify and improve vehicle quality and manufacturing processes.</ul>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
