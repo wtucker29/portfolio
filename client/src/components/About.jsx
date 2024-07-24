@@ -6,7 +6,7 @@ export default function About() {
       <div className="container">
         <h2 className="title">About Me</h2>
         <p className="about-paragraph">
-          I am a full-stack software engineer with a passion for learning and problem-solving. I discovered my love and passion for coding while taking computer science classes during my Master's program. My time coding while working on machine learning projects was the spark that igited my passion for coding and lead me on the path to becoming a software engineer.
+          I am a full-stack software engineer with a passion for learning and problem-solving. I discovered my love and passion for coding while taking computer science classes during my Master's program. My time coding while working on machine learning projects was the spark that ignited my passion for coding and lead me on the path to becoming a software engineer.
           My focus is on JavaScript and its frameworks, but I am always looking to learn new technologies.
         </p>
         <p className="about-paragraph">
