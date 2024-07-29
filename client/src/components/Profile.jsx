@@ -20,7 +20,7 @@ export default function Profile() {
                 <button
                   className="button is-link is-focused is-medium is-responsive"
                   onClick={() => {
-                    window.open("/assets/William_Tucker_FullStack_Resume.pdf");
+                    window.open("/assets/William-Tucker-Software-Engineer-Resume.pdf");
                   }}
                 >
                   Download Resume
