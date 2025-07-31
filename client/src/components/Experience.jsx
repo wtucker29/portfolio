@@ -11,12 +11,25 @@ export default function Experience() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           date="2024 - Present"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">Software Engineer</h3>
           <h4 className="vertical-timeline-element-subtitle">MindClub America</h4>
+          <p>
+            <li>
+              Developed and maintained web applications using React and Node.js, focusing on performance optimization and user experience.
+            </li>
+            <li>
+               Implemented RESTful APIs and integrated third-party services to enhance application functionality.
+            </li>
+            <br />
+            <br />
+          <strong>Technologies:</strong> JavaScript, React, Node.js, PHP, PostgreSQL, Express, Git, AWS
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -38,7 +51,10 @@ export default function Experience() {
           <h3 className="vertical-timeline-element-title">Mechanical Engineer 3</h3>
           <h4 className="vertical-timeline-element-subtitle">Nissan North America</h4>
           <p>
-            Reported product efficiency and optimization reports to senior leadership on a monthly cadence, with the goal of highlighting emerging and escalating issues. Led weekly cross-functional meetings with international design and manufacturing teams to identify and improve vehicle quality and manufacturing processes. Led Nissan's Quality Customer Survey activity for the Ariya Task Force - a robust survey collecting data on every component of product and feature performance. Results utilized to win awards from JD Power.
+            <li>Reported product efficiency and optimization reports to senior leadership on a monthly cadence, with the goal of highlighting emerging and escalating issues. </li>
+            <li>Led weekly cross-functional meetings with international design and manufacturing teams to identify and improve vehicle quality and manufacturing processes.</li>
+            <li>Led Nissan's Quality Customer Survey activity for the Ariya Task Force - a robust survey collecting data on every component of product and feature performance.</li>
+            <li> Results utilized to win awards from JD Power.</li>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
