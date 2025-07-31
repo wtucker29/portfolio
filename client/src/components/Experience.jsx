@@ -9,12 +9,21 @@ export default function Experience() {
     <div className="container">
     <h2 className="title">Experience</h2>
       <VerticalTimeline>
-      <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2024 - 2024"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<FaGraduationCap />}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2024 - Present"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<FaBriefcase />}
         >
+          <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">MindClub America</h4>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2024 - 2024"
+            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            icon={<FaGraduationCap />}
+          >
           <h3 className="vertical-timeline-element-title">A.S. in Computer Science</h3>
           <h4 className="vertical-timeline-element-subtitle">Hack Reactor</h4>
         </VerticalTimelineElement>
