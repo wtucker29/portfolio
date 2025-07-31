@@ -77,7 +77,8 @@ export default function Experience() {
           <h3 className="vertical-timeline-element-title">Mechanical Engineer 2</h3>
           <h4 className="vertical-timeline-element-subtitle">Nissan North America</h4>
           <p>
-            A key member in the launch of the 2019 Nissan Kicks, a brand new model, and the 2019 Nissan Versa, a new generation of a popular model. A key member in task forces for each model and responsible for the invesigation and development of countermeasures for field incidents.
+            <li>A key member in the launch of the 2019 Nissan Kicks, a brand new model, and the 2019 Nissan Versa, a new generation of a popular model.</li>
+            <li>A key member in task forces for each model and responsible for the invesigation and development of countermeasures for field incidents.</li>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -91,7 +92,9 @@ export default function Experience() {
           <h3 className="vertical-timeline-element-title">Mechanical Engineer 1</h3>
           <h4 className="vertical-timeline-element-subtitle">Nissan North America</h4>
           <p>
-            Systematically reviewed quality of design and performance for body and exterior components for all vehicles manufactured in North America.
+            <li>
+              Systematically reviewed quality of design and performance for body and exterior components for all vehicles manufactured in North America.
+            </li>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
